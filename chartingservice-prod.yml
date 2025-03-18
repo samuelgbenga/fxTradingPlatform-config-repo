@@ -1,0 +1,6 @@
+server:
+  port: 8081
+app:
+  name: Charting Service (prod)
+  version: 1.0
+  environment: production
