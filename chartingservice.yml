@@ -1,0 +1,5 @@
+server:
+  port: 8081
+app:
+  name: Charting Service
+  version: 1.0
