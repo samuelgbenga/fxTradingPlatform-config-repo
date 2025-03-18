@@ -1,0 +1,2 @@
+spring.application.name=charting-service
+spring.application.profiles=development
