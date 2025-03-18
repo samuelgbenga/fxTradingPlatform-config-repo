@@ -1,0 +1,8 @@
+server:
+  port: 8082  # Use a different port for the dev environment
+app:
+  name: Charting Service (Development)
+  version: 1.0-dev
+
+spring:
+  profiles: dev  # This marks it as a dev profile
