@@ -5,7 +5,6 @@ spring:
   application:
     name: USER-MANAGMENT-SERVICE
 
-# SPRING CLOUD CONFIGURATION
 eureka:
   instance:
     preferIpAddress: true
