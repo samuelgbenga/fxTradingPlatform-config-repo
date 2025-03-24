@@ -8,6 +8,11 @@ spring:
   cloud:
     discovery:
       enabled: true
+      
+    config:
+      allowOverride: true
+      overrideNone: false
+      overrideSystemProperties: true
 
   datasource:
     url: jdbc:h2:mem:userdb
