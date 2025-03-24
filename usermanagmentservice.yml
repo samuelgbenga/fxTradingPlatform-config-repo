@@ -36,4 +36,4 @@ eureka:
 cloudinary:
   cloud-name: ${CLOUDINARY_NAME}
   api-key: $CLOUDINARY_API_KEY
-  api-secret: #{systemEnvironment['CLOUDINARY_API_SECRET']}
+  api-secret: $CLOUDINARY_API_SECRET
