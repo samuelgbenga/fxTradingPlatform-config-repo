@@ -37,6 +37,3 @@ cloudinary:
   cloud-name: ${CLOUDINARY_NAME}
   api-key: ${CLOUDINARY_API_KEY}
   api-secret: ${CLOUDINARY_API_SECRET}
-
-user:
-  password: {cipher}$PASSWORD
