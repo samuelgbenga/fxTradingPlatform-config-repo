@@ -13,7 +13,7 @@ spring:
     url: jdbc:h2:mem:userdb
     driver-class-name: org.h2.Driver
     username: sa
-    password: 
+    password:
 
   h2:
     console:
@@ -35,5 +35,5 @@ eureka:
 
 cloudinary:
   cloud-name: ${CLOUDINARY_NAME}
-  api-key: $CLOUDINARY_API_KEY
+  api-key: ${CLOUDINARY_API_KEY}
   api-secret: ${CLOUDINARY_API_SECRET}
