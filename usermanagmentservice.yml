@@ -5,6 +5,20 @@ spring:
   application:
     name: USER-MANAGEMENT-SERVICE
 
+  mail:
+    host: smtp.gmail.com
+    port: 465
+    username: ${EMAIL_NAME}
+    password: ${EMAIL_PASSWORD}
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+          ssl:
+            enable: true
+
   cloud:
     discovery:
       enabled: true
