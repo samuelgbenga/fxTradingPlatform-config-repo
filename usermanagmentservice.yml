@@ -5,20 +5,6 @@ spring:
   application:
     name: USER-MANAGEMENT-SERVICE
 
-  mail:
-    host: smtp.gmail.com
-    port: 465
-    username: "{cipher}AgARMlDLaT2YO7T+4j17OKHXkPdibFGQDBrgLWGiIYt8eqm55wDkS0SoKcsRMcuhq19rmmT8RdIttc65hHKsfyX42r42ZT8temTWAk8QTIBqIVUC+CdV8zlakzOjGJ1mZ7sICtciHW7LyTLl3fdkTUj7xrWZOgwtOHBctC8L4F0f85pKkPEGSBFJUkFUowlFAJsRhyZQrBUxj+dBuIhSiDMnM+Qeyv8eUe/6dbpvT/Fz09tE1Jf210thOuvXIvOb1aEDWO7mhbGItsoW4fwn36ze3lTJyUCbeLrYgaeLu1L6nXb8fUBvWHSnkRx8pcH/0WUr+ndH7Bvy6LObT/5Jt1GL05/ys+h8hN3+JEE6oK3QHprjp8y7J4xdnnvFcjvnP4w/U73Sb/Rr9Cn+FsXoCAcAh26J8UWpTuXi6aoxIyiD1emdJd+wUNbUMJdLLUAO7cLToYQsuaalZVy6LuxPNenqXpJ9lFKlyq8TgK1ovyHJNfl9zORoN6qI+fQ5a6Jg6KQSqCE0Cwf88VrqSFMkIGuRJ6eosVKKk6tt206ig+bXm4xoszkC813vh/EjbkHZ9Kj7D8Zl/p7OH1sbI4upM/gbkQHEhXcI2FHEQCdbY/QfVYbJ7dHnC3Sc53Ngf9T4UcJ7PwTKW9CyObZYDPrnB35+OTNkw7xBi4n+6SsFmUZsromAzoRP9rd7V6Cu5FagPd6wxrR71aOMxchbovNPdX2u6bkJoP4adGbEzpcXM0auhw=="
-    password: "{cipher}AgCq0uIS2gy6x3bAtktIh1km7ybhY+SfEgexAW8iLxWjseZZzgcqWSTcc9K93k2PZhZd7wLsYYSenK68X+DkfW7TVHsJP9uL6JRgoskhBffuda6trqdbHvOqFrpn/Exzyzx2OYXzaV6qBz8X+EcMooc8aLeZrdw/789lQYGIaXoKYT+2HaVuZwLjhJv9qQJj6OVaWespTvHuuBYbqnjvXfnRKdVPB1qjFvguxs0W60Vax9NYNVWhk9CykEnUIQlzw25GU7zTqtS2k8ZMB+LYIyXPl1rjFoXri2bA787ybipci8jO0gDD+Un5fxl2+1i5fzz/91W04eEXthKAVzoGpaPzuVBtjotKyODV7QK9/F527ZA3GnqDmuMHawFxk7Ag7RdYVa+QgsaFX3g/4bQMQdo1R1W0Fk7xqmfC4lbqCaxUWwPF/nY40EUS6hcIIozJsITTQg/vWzkJ+MCpBwLAS1eUu4OTnVCXyBB8+Xm5jtj1sp3iZi/zWgcEHhBFue9rMPMTnFSDLxa9d+z9EJc8xMeymS+gWdXrkeSJFS2IPo0Xkn0PaSkR+2oI2/3bavdI175eSRT5ICur2OH9LxwxlGJt3KI+9Trc5lrf6sJ9zu+bAxprvaVgPMYQBi8KxVxPkN4qLkN+PS7yDtlN2/vjjPFEIyMki378VHfnOXfYfXwjFGuakRihNV5QW7DNtVh99qT/wTrMK2HbvLEZmqRVlwQ+eAjn+3qf7ehJQuTK0/nXVw=="
-    properties:
-      mail:
-        smtp:
-          auth: true
-          starttls:
-            enable: true
-          ssl:
-            enable: true
-
   cloud:
     discovery:
       enabled: true
